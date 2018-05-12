@@ -1,5 +1,14 @@
 # powerCheck
-Predicting power outage using night lights data set
+Predicting power outage using weather forecast data
 
+Our model predicts the possibility of a power outage based on the current weather conditions in a region. Using the historical weather records from Climate Data Online and the Electrical Disturbances OE-417 Data from the Department of Energy, it is able to predict accurately most of the power outages in a region.
 
-We are working on building and training a model capable of predicting power outages at a spatial resolution of 1km. Staying informed about a possible power outage is crucial to organizations such as hospitals and factories, especially in developing countries. We will be working with the Night Lights dataset and use the electrical disturbance data to determine the accuracy of the model. The main challenges we will be addressing over the course of this project are identifying the right algorithm to use with the data, and usage of appropriate data structures to organize data and boost efficiency.
+For a proof of concept, we have focused on Texas, Houston and Michigan, Ann Arbor. We also tested our model's potential for transfer learning by testing it on a neighboring state of Michigan, Indiana.
+
+# Project Layout
+
+You can find our final report and presentation in the root directory. THe Weather Data Analysis contains all our code for the model.
+
+# About the Project
+
+This project was a part of CS542: Boston University, taught by Prof. Sang Chin in Spring 2018. 
